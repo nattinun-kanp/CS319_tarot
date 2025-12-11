@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@elysiajs/cors": "^1.4.0",
     "mongoose": "^9.0.1"
   },
   "devDependencies": {

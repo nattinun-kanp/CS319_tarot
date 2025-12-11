@@ -1,42 +1,40 @@
 import mongoose from 'mongoose';
-import { readFileSync } from 'fs';
+import { readFileSync } from 'node:fs'; 
+// 1. ตั้งค่า Database
+const MONGO_URI = 'mongodb+srv://tarotDB:nattinun551776@tarot.jpvsyia.mongodb.net/?appName=tarot';
 
-// 1. ตั้งค่า Database (ถ้ามี User/Pass ให้ใส่ตรงนี้)
-const MONGO_URI = 'mongodb://localhost:27017/tarot_db';
-
-// 2. สร้างโครงสร้างข้อมูล (Schema)
+// 2. สร้าง Schema
 const cardSchema = new mongoose.Schema({
-  name_short: String, // เช่น ar00
-  name: String,       // เช่น The Fool
-  value: String,      // เช่น zero
-  value_int: Number,  // เช่น 0
-  meaning_up: String, // ความหมายไพ่ตั้ง
-  meaning_rev: String,// ความหมายไพ่กลับหัว
-  desc: String,       // คำบรรยาย
-  type: String        // major หรือ minor
+  name_short: String,
+  name: String,
+  value: String,
+  value_int: Number,
+  meaning_up: String,
+  meaning_rev: String,
+  desc: String,
+  type: String
 });
 
 const CardModel = mongoose.model('Card', cardSchema);
 
 const seed = async () => {
   try {
-    // เชื่อมต่อ MongoDB
     await mongoose.connect(MONGO_URI);
     console.log('🔌 Connected to MongoDB...');
 
-    // อ่านไฟล์ JSON
+    // 3. อ่านไฟล์ JSON (ใช้ท่ามาตรฐานที่ปลอดภัยที่สุด)
+    // ตรวจสอบชื่อไฟล์ให้ตรงเป๊ะๆ กับที่มีในโฟลเดอร์
     const fileContent = readFileSync('./card_data.json', 'utf-8');
     const jsonData = JSON.parse(fileContent);
 
-    // เช็คโครงสร้าง JSON ว่าข้อมูลไพ่อยู่ตรงไหน
-    // บางทีมันอาจจะหุ้มด้วย { "cards": [...] } หรือเป็น [...] เลย
+    // เช็คว่าข้อมูลซ่อนอยู่ใน property ไหน
     const cards = jsonData.cards || jsonData;
 
     if (!Array.isArray(cards)) {
-        throw new Error("หาข้อมูลไพ่ไม่เจอ! ลองเช็คโครงสร้างไฟล์ JSON ดูอีกที");
+        throw new Error("❌ หาข้อมูลไพ่ไม่เจอ! รูปแบบ JSON อาจไม่ถูกต้อง");
     }
 
-    // ล้างข้อมูลเก่าก่อน (เผื่อรันซ้ำ)
+    // ล้างข้อมูลเก่า
     await CardModel.deleteMany({});
     console.log('🧹 Cleared old data.');
 
@@ -45,7 +43,7 @@ const seed = async () => {
     console.log(`✨ Success! Seeded ${cards.length} cards.`);
 
   } catch (error) {
-    console.error('❌ Error:', error);
+    console.error('❌ Error Details:', error);
   } finally {
     await mongoose.disconnect();
     console.log('👋 Disconnected.');
