@@ -1,20 +1,21 @@
 import mongoose from 'mongoose';
-import { readFileSync } from 'node:fs'; 
+import { readFileSync, existsSync } from 'node:fs';
 
+// 1. ตั้งค่า Database
 const MONGO_URI = 'mongodb+srv://tarotDB:nattinun551776@tarot.jpvsyia.mongodb.net/?appName=tarot';
 
-// 1. อัปเดต Schema ให้รองรับภาษาไทย
+// 2. สร้าง Schema (เพิ่มช่องเก็บภาษาไทย)
 const cardSchema = new mongoose.Schema({
   name_short: String,
-  name: String,       // ชื่ออังกฤษ
-  name_th: String,    // ชื่อไทย (เพิ่ม)
+  name: String,       // อังกฤษ
+  name_th: String,    // ไทย (เพิ่ม)
   value: String,
   value_int: Number,
-  meaning_up: String,    // ความหมายอังกฤษ
-  meaning_up_th: String, // ความหมายไทย (เพิ่ม)
+  meaning_up: String,    // อังกฤษ
+  meaning_up_th: String, // ไทย (เพิ่ม)
   meaning_rev: String,
   desc: String,
-  desc_th: String,       // คำบรรยายไทย (เพิ่ม)
+  desc_th: String,       // ไทย (เพิ่ม)
   type: String
 });
 
@@ -25,35 +26,45 @@ const seed = async () => {
     await mongoose.connect(MONGO_URI);
     console.log('🔌 Connected to MongoDB...');
 
-    // 2. อ่านไฟล์ทั้ง 2 ภาษา
-    const enData = JSON.parse(readFileSync('./card_data.json', 'utf-8'));
-    const thData = JSON.parse(readFileSync('./card_data_th.json', 'utf-8')); // ไฟล์ไทย
-
+    // 3. อ่านไฟล์ JSON
+    const enFile = readFileSync('./card_data.json', 'utf-8');
+    const enData = JSON.parse(enFile);
     const enCards = enData.cards || enData;
-    const thCards = thData.cards || thData;
 
-    // 3. รวมร่างข้อมูล (Merge) โดยใช้ name_short เป็นตัวเชื่อม
+    // เช็คว่ามีไฟล์ไทยไหม?
+    let thCards = [];
+    if (existsSync('./card_data_th.json')) {
+        const thFile = readFileSync('./card_data_th.json', 'utf-8');
+        const thData = JSON.parse(thFile);
+        thCards = thData.cards || thData;
+        console.log(`🇹🇭 พบไฟล์ภาษาไทย: มีข้อมูล ${thCards.length} ใบ`);
+    } else {
+        console.log('⚠️ ไม่พบไฟล์ card_data_th.json (จะใช้ภาษาอังกฤษแทนชั่วคราว)');
+    }
+
+    // 4. รวมร่างข้อมูล (Merge)
     const mergedCards = enCards.map((card: any) => {
-        // หาข้อมูลไทยที่ตรงกัน
+        // หาคู่ภาษาไทยโดยใช้ชื่อย่อ (name_short) เป็นตัวเชื่อม
         const thaiCard = thCards.find((t: any) => t.name_short === card.name_short);
         
         return {
             ...card, // เอาข้อมูลอังกฤษตั้งต้น
-            name_th: thaiCard?.name_th || card.name, // ถ้าไม่มีไทย ให้ใช้อังกฤษแทน
-            meaning_up_th: thaiCard?.meaning_up_th || "ยังไม่มีข้อมูลภาษาไทย",
+            // ถ้ามีไทยให้ใช้ไทย ถ้าไม่มีให้ใส่อังกฤษหรือข้อความแจ้งเตือน
+            name_th: thaiCard?.name_th || card.name, 
+            meaning_up_th: thaiCard?.meaning_up_th || "รอการแปลภาษาไทย...",
             desc_th: thaiCard?.desc_th || ""
         };
     });
 
-    // 4. ล้างของเก่าและบันทึกใหม่
+    // 5. ล้างของเก่าและบันทึกใหม่
     await CardModel.deleteMany({});
     console.log('🧹 Cleared old data.');
 
     await CardModel.insertMany(mergedCards);
-    console.log(`✨ Success! Seeded ${mergedCards.length} cards with Dual Language support.`);
+    console.log(`✨ Success! Seeded ${mergedCards.length} cards into Database.`);
 
   } catch (error) {
-    console.error('❌ Error:', error);
+    console.error('❌ Error Details:', error);
   } finally {
     await mongoose.disconnect();
     console.log('👋 Disconnected.');

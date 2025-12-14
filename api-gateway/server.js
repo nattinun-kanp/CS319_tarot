@@ -3,42 +3,47 @@ const axios = require('axios');
 const cors = require('cors');
 
 const app = express();
-const PORT = 3000; // Express จะรันที่ Port 3000 (React จะยิงมาที่นี่)
-const ORACLE_URL = 'http://localhost:3001'; // ที่อยู่ของแม่หมอ Elysia
+const PORT = 3000;
+const ORACLE_URL = 'http://localhost:3001';
 
-app.use(cors()); // อนุญาตให้ React (คนละ Port) เรียกใช้งานได้
+app.use(cors());
 app.use(express.json());
 
-// 1. Route: สำหรับหน้าดูดวง (สุ่มไพ่)
 app.get('/api/tarot-reading', async (req, res) => {
     try {
-        const num = req.query.n || 3; // ถ้าไม่บอก เอา 3 ใบ
+        const num = req.query.n || 3;
         
-        // Express เดินไปขอไพ่จาก Elysia
+        // ยิงไปหา Backend
         const response = await axios.get(`${ORACLE_URL}/draw?n=${num}`);
-        const cards = response.data.data;
-
-        // ตรงนี้เราสามารถ "ปรุงแต่ง" ข้อมูลเพิ่มได้ก่อนส่งให้ React
-        // เช่น ใส่คำทำนายเพิ่ม หรือจัด format ใหม่
         
+        // ✅ จุดที่แก้: เปลี่ยน .data เป็น .reading ให้ตรงกับ Backend
+        const cards = response.data.reading; 
+
+        // เช็คเผื่อ Backend ส่งกลับมาผิดพลาด
+        if (!cards) {
+            throw new Error("Backend did not return any cards (reading is undefined)");
+        }
+
         console.log(`✅ Served ${cards.length} cards to client.`);
         
+        // ส่งต่อให้ Frontend
         res.json({
             service: "Gateway",
             timestamp: new Date(),
-            reading: cards
+            reading: cards // Frontend ก็รอรับชื่อ reading เหมือนกัน
         });
 
     } catch (error) {
-        console.error("❌ Error contacting Oracle:", error.message);
-        res.status(500).json({ error: "แม่หมอหลังบ้านป่วย (Connection Failed)" });
+        console.error("❌ Gateway Error:", error.message);
+        // ดู Error จริงๆ จาก Backend ถ้ามี
+        if (error.response) {
+            console.error("   Backend response:", error.response.data);
+        }
+        res.status(500).json({ error: "Connection Failed" });
     }
 });
 
-// 2. Route: เช็คสถานะ
-app.get('/', (req, res) => {
-    res.send('API Gateway is running on Port 3000 🛡️');
-});
+app.get('/', (req, res) => res.send('Gateway Running...'));
 
 app.listen(PORT, () => {
     console.log(`🛡️  Gateway Server listening on port ${PORT}`);

@@ -2,54 +2,53 @@ import { Elysia } from 'elysia';
 import { cors } from '@elysiajs/cors';
 import mongoose from 'mongoose';
 
-// 1. ตั้งค่า Database
+// 1. เชื่อมต่อ Database (ใช้ .then เพื่อความชัวร์)
 const MONGO_URI = 'mongodb+srv://tarotDB:nattinun551776@tarot.jpvsyia.mongodb.net/?appName=tarot';
 
-// 2. สร้าง Model เตรียมไว้
+mongoose.connect(MONGO_URI)
+  .then(() => console.log('🔮 Oracle Engine connected to Database...'))
+  .catch((err) => console.error('❌ DB Connection Error:', err));
+
+// 2. สร้าง Schema (ต้องมี _th ให้ครบ!)
 const cardSchema = new mongoose.Schema({
   name_short: String,
   name: String,
+  name_th: String,       // ✅ เพิ่ม
   value: String,
   value_int: Number,
   meaning_up: String,
+  meaning_up_th: String, // ✅ เพิ่ม
   meaning_rev: String,
   desc: String,
+  desc_th: String,       // ✅ เพิ่ม
   type: String
 });
 
-const CardModel = mongoose.model('Card', cardSchema);
+// ตรวจสอบว่า Model ซ้ำหรือไม่
+const CardModel = mongoose.models.Card || mongoose.model('Card', cardSchema);
 
-// 3. สร้างแอป Elysia
+// 3. สร้าง Server
 const app = new Elysia()
   .use(cors())
-  .get('/', () => ({ status: 'The Oracle is Alive! 🔮' }))
+  .get('/', () => '🦊 Oracle is ready...')
   .get('/draw', async ({ query }) => {
-    const count = Number(query.n) || 1;
-    const cards = await CardModel.aggregate([
-      { $sample: { size: count } }
-    ]);
-    return {
-      success: true,
-      data: cards,
-      timestamp: new Date()
-    };
-  });
+    try {
+        const count = Number(query.n) || 3;
+        
+        // สุ่มไพ่
+        const cards = await CardModel.aggregate([
+            { $sample: { size: count } }
+        ]);
 
-// --- จุดที่แก้ไข: สร้างฟังก์ชัน start มาครอบการทำงาน ---
-const startServer = async () => {
-  try {
-    // เชื่อมต่อ Database ก่อน
-    await mongoose.connect(MONGO_URI);
-    console.log('🔮 Oracle Engine connected to Database...');
+        return {
+            success: true,
+            reading: cards, // ส่งชื่อ reading (สำคัญ!)
+            timestamp: new Date()
+        };
+    } catch (err) {
+        return { success: false, error: String(err) };
+    }
+  })
+  .listen(3001);
 
-    // ถ้าต่อติดแล้ว ค่อยสั่งรัน Server
-    app.listen(3001);
-    console.log(`🦊 Oracle is running at ${app.server?.hostname}:${app.server?.port}`);
-    
-  } catch (error) {
-    console.error('❌ Connection Failed:', error);
-  }
-};
-
-// สั่งรันฟังก์ชัน
-startServer();
+console.log(`🦊 Oracle is running at http://${app.server?.hostname}:${app.server?.port}`);
