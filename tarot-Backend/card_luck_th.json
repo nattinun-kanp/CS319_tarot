@@ -1,0 +1,395 @@
+{
+  "nhits": 78,
+  "cards": [
+    {
+      "name_short": "ar01",
+      "name": "The Magician",
+      "meaning_luck": "มีโชคแบบฟลุ๊คๆ, สิ่งศักดิ์สิทธิ์ให้โชค, ได้ลาภจากความสามารถหรือคำพูด"
+    },
+    {
+      "name_short": "ar02",
+      "name": "The High Priestess",
+      "meaning_luck": "โชคจากความฝัน, ลางสังหรณ์แม่นยำ, เลขเด็ดจากสิ่งลี้ลับ"
+    },
+    {
+      "name_short": "ar03",
+      "name": "The Empress",
+      "meaning_luck": "โชคลาภจากผู้หญิง, ความอุดมสมบูรณ์, ได้ของขวัญของฝากมีค่า"
+    },
+    {
+      "name_short": "ar04",
+      "name": "The Emperor",
+      "meaning_luck": "โชคจากผู้ใหญ่เพศชาย, ได้เลื่อนขั้นเลื่อนตำแหน่ง, โชคจากชาวต่างชาติ"
+    },
+    {
+      "name_short": "ar05",
+      "name": "The Hierophant",
+      "meaning_luck": "โชคจากการทำบุญ, สิ่งศักดิ์สิทธิ์คุ้มครอง, ได้ของมงคล, ผู้ใหญ่เมตตา"
+    },
+    {
+      "name_short": "ar06",
+      "name": "The Lovers",
+      "meaning_luck": "โชคจากคนรัก, ได้ของถูกใจ, หุ้นส่วนนำโชคมาให้"
+    },
+    {
+      "name_short": "ar07",
+      "name": "The Chariot",
+      "meaning_luck": "โชคจากการเดินทาง, รถยนต์ให้โชค (เลขทะเบียน), ชัยชนะจากการแข่งขัน"
+    },
+    {
+      "name_short": "ar08",
+      "name": "Fortitude",
+      "meaning_luck": "โชคที่ต้องแลกมาด้วยความเหนื่อยยาก, ชนะพนันในนาทีสุดท้าย"
+    },
+    {
+      "name_short": "ar09",
+      "name": "The Hermit",
+      "meaning_luck": "โชคมาช้า, เลขเก่าเลขเดิม, โชคจากของโบราณ"
+    },
+    {
+      "name_short": "ar10",
+      "name": "Wheel Of Fortune",
+      "meaning_luck": "มีเกณฑ์ถูกหวยรวยเบอร์, โชคลาภก้อนใหญ่, พลิกวิกฤตเป็นโอกาส (ไพ่โชคลาภโดยตรง)"
+    },
+    {
+      "name_short": "ar11",
+      "name": "Justice",
+      "meaning_luck": "โชคจากการชนะคดีความ, ได้เงินชดเชย, ความยุติธรรมส่งผลดี"
+    },
+    {
+      "name_short": "ar12",
+      "name": "The Hanged Man",
+      "meaning_luck": "ทุกขลาภ (ได้เงินแต่เจ็บตัวหรือเสียของรัก), เลขที่บ้าน/เลขรถที่ซ่อมให้โชค"
+    },
+    {
+      "name_short": "ar13",
+      "name": "Death",
+      "meaning_luck": "โชคจากงานศพ, เลขฝาโลง, การได้รับมรดกหรือเงินประกัน"
+    },
+    {
+      "name_short": "ar14",
+      "name": "Temperance",
+      "meaning_luck": "โชคจากการเดินทางไกล/ข้ามน้ำข้ามทะเล, การโยกย้ายนำมาซึ่งโอกาส"
+    },
+    {
+      "name_short": "ar15",
+      "name": "The Devil",
+      "meaning_luck": "โชคจากการพนัน, หวยหุ้น, สายเทา (ได้มาเร็วหมดเร็ว)"
+    },
+    {
+      "name_short": "ar16",
+      "name": "The Tower",
+      "meaning_luck": "โชคแบบไม่คาดฝัน (Surprise), แต่ระวังอุบัติเหตุก่อนได้ลาภ, แจ็คพอตแตก"
+    },
+    {
+      "name_short": "ar17",
+      "name": "The Star",
+      "meaning_luck": "โชคดีมาก, สมหวังดั่งคำขอ, เลขนำโชคให้ผล"
+    },
+    {
+      "name_short": "ar18",
+      "name": "The Moon",
+      "meaning_luck": "โชคแบบลับๆ, ได้เงินใต้โต๊ะ, สัญชาตญาณเรื่องตัวเลขแม่น"
+    },
+    {
+      "name_short": "ar19",
+      "name": "The Sun",
+      "meaning_luck": "โชคลาภมหาศาล, ชื่อเสียงนำเงินมาให้, ได้รางวัลที่ 1 (ไพ่ดีที่สุด)"
+    },
+    {
+      "name_short": "ar20",
+      "name": "The Last Judgment",
+      "meaning_luck": "บุญเก่าหนุนนำ, โชคจากการเสี่ยงทาย, ข่าวดีที่รอคอย"
+    },
+    {
+      "name_short": "ar00",
+      "name": "The Fool",
+      "meaning_luck": "โชคแบบเด็กๆ (Beginner's luck), ได้เงินแบบงงๆ, ลองเสี่ยงดวงขำๆ แล้วได้"
+    },
+    {
+      "name_short": "ar21",
+      "name": "The World",
+      "meaning_luck": "ความสำเร็จสูงสุด, โชคลาภจากต่างแดน, ครบองค์ประกอบความโชคดี"
+    },
+    {
+      "name_short": "wapa",
+      "name": "Page of Wands",
+      "meaning_luck": "ข่าวดีเรื่องโชคจากการเดินทางระยะสั้น, เพื่อนนำโชคมาให้"
+    },
+    {
+      "name_short": "wakn",
+      "name": "Knight of Wands",
+      "meaning_luck": "โชคจากการเดินทาง, ต้องออกไปหาถึงจะได้, ลาภจากการแข่งขัน"
+    },
+    {
+      "name_short": "waqu",
+      "name": "Queen of Wands",
+      "meaning_luck": "โชคจากการงาน, ผู้จัดการ/เจ้านายผู้หญิงให้โชค"
+    },
+    {
+      "name_short": "waki",
+      "name": "King of Wands",
+      "meaning_luck": "โชคใหญ่จากธุรกิจ, โปรเจกต์ประสบความสำเร็จเกินคาด"
+    },
+    {
+      "name_short": "waac",
+      "name": "Ace of Wands",
+      "meaning_luck": "โชคจากการเริ่มต้นใหม่, ได้โอกาสดีๆ ที่นำไปสู่เงินทอง"
+    },
+    {
+      "name_short": "wa02",
+      "name": "Two of Wands",
+      "meaning_luck": "โชคจากทางไกล, หุ้นส่วนธุรกิจนำลาภมาให้"
+    },
+    {
+      "name_short": "wa03",
+      "name": "Three of Wands",
+      "meaning_luck": "โชคจากการค้าขาย, กำไรจากการส่งออก"
+    },
+    {
+      "name_short": "wa04",
+      "name": "Four of Wands",
+      "meaning_luck": "โชคดีเรื่องบ้าน/ที่ดิน, งานเฉลิมฉลองนำโชคมาให้"
+    },
+    {
+      "name_short": "wa05",
+      "name": "Five of Wands",
+      "meaning_luck": "ลาภจากการแข่งขัน (ต้องแย่งชิงถึงจะได้), โชคเล็กน้อย"
+    },
+    {
+      "name_short": "wa06",
+      "name": "Six of Wands",
+      "meaning_luck": "รางวัลแห่งความสำเร็จ, ชนะการประกวด"
+    },
+    {
+      "name_short": "wa07",
+      "name": "Seven of Wands",
+      "meaning_luck": "โชคจากการเอาชนะอุปสรรค, ไม่มีลาภลอย (ต้องทำเอง)"
+    },
+    {
+      "name_short": "wa08",
+      "name": "Eight of Wands",
+      "meaning_luck": "ข่าวดีมาเร็ว, โชคจากการเดินทาง, ได้เงินไว"
+    },
+    {
+      "name_short": "wa09",
+      "name": "Nine of Wands",
+      "meaning_luck": "โชคยังมาไม่ถึง, ต้องรอคอยและอดทนไปก่อน"
+    },
+    {
+      "name_short": "wa10",
+      "name": "Ten of Wands",
+      "meaning_luck": "ไม่มีโชคฟลุ๊คๆ, ได้เงินจากน้ำพักน้ำแรงล้วนๆ"
+    },
+    {
+      "name_short": "cupa",
+      "name": "Page of Cups",
+      "meaning_luck": "โชคเล็กๆ น้อยๆ, ได้ของกินของฝากถูกใจ, ลูกหลานให้โชค"
+    },
+    {
+      "name_short": "cukn",
+      "name": "Knight of Cups",
+      "meaning_luck": "มีคนนำโชคมาเสิร์ฟถึงที่, คำเชิญไปงานเลี้ยง"
+    },
+    {
+      "name_short": "cuqu",
+      "name": "Queen of Cups",
+      "meaning_luck": "โชคจากความฝัน, แม่/ญาติผู้ใหญ่ผู้หญิงให้โชค"
+    },
+    {
+      "name_short": "cuki",
+      "name": "King of Cups",
+      "meaning_luck": "โชคจากผู้ชายใจดี, ผู้ใหญ่ให้การอุปถัมภ์"
+    },
+    {
+      "name_short": "cuac",
+      "name": "Ace of Cups",
+      "meaning_luck": "โชคลาภหลั่งไหล, อาหารการกินอุดมสมบูรณ์, ความสุขสมหวัง"
+    },
+    {
+      "name_short": "cu02",
+      "name": "Two of Cups",
+      "meaning_luck": "คนรักให้โชค, คู่ครองพารวย, ถูกรางวัลคู่"
+    },
+    {
+      "name_short": "cu03",
+      "name": "Three of Cups",
+      "meaning_luck": "โชคจากการสังสรรค์, เพื่อนฝูงบอกเลขเด็ด, งานเลี้ยงรุ่น"
+    },
+    {
+      "name_short": "cu04",
+      "name": "Four of Cups",
+      "meaning_luck": "มองข้ามโชคที่อยู่ตรงหน้า, ไม่พอใจในลาภที่ได้"
+    },
+    {
+      "name_short": "cu05",
+      "name": "Five of Cups",
+      "meaning_luck": "เสียพนัน, ผิดหวังเรื่องโชค, ทุกขลาภ"
+    },
+    {
+      "name_short": "cu06",
+      "name": "Six of Cups",
+      "meaning_luck": "โชคจากของเก่า/คนเก่า, ได้มรดกตกทอด, เพื่อนเก่าให้โชค"
+    },
+    {
+      "name_short": "cu07",
+      "name": "Seven of Cups",
+      "meaning_luck": "ฝันเฟื่อง, เพ้อเจ้อเรื่องหวย, ระวังถูกหลอกให้ลงทุน"
+    },
+    {
+      "name_short": "cu08",
+      "name": "Eight of Cups",
+      "meaning_luck": "ต้องเดินทางไกลถึงจะมีโชค, ทิ้งโอกาสเก่าเพื่อหาสิ่งใหม่"
+    },
+    {
+      "name_short": "cu09",
+      "name": "Nine of Cups",
+      "meaning_luck": "ไพ่สมหวัง (Wish Card), กินดีอยู่ดี, มีเกณฑ์ถูกรางวัล"
+    },
+    {
+      "name_short": "cu10",
+      "name": "Ten of Cups",
+      "meaning_luck": "โชคใหญ่ของครอบครัว, บ้านเลขที่ให้โชค, ความสุขสมบูรณ์"
+    },
+    {
+      "name_short": "pepa",
+      "name": "Page of Pentacles",
+      "meaning_luck": "โชคลาภเล็กน้อยพอหอมปากหอมคอ, เริ่มต้นเก็บออมได้ผลดี"
+    },
+    {
+      "name_short": "pekn",
+      "name": "Knight of Pentacles",
+      "meaning_luck": "โชคมาช้าแต่มาชัวร์, ได้เงินก้อนจากการสะสม"
+    },
+    {
+      "name_short": "pequ",
+      "name": "Queen of Pentacles",
+      "meaning_luck": "มีดวงนารีอุปถัมภ์, โชคดีเรื่องการเงินมาก, ชีวิตสุขสบาย"
+    },
+    {
+      "name_short": "peki",
+      "name": "King of Pentacles",
+      "meaning_luck": "ดวงเศรษฐี, โชคลาภก้อนโต, เจ้าสัว/ผู้มีอำนาจให้โชค"
+    },
+    {
+      "name_short": "peac",
+      "name": "Ace of Pentacles",
+      "meaning_luck": "ลาภลอยก้อนใหญ่ (ถูกหวยรางวัลใหญ่), เงินหล่นทับ, โชคดีที่สุดในเรื่องเงิน"
+    },
+    {
+      "name_short": "pe02",
+      "name": "Two of Pentacles",
+      "meaning_luck": "เงินหมุน, ได้มาจ่ายไป, โชคยังไม่นิ่ง"
+    },
+    {
+      "name_short": "pe03",
+      "name": "Three of Pentacles",
+      "meaning_luck": "โชคจากฝีมือตัวเอง, ได้งานพิเศษเงินดี"
+    },
+    {
+      "name_short": "pe04",
+      "name": "Four of Pentacles",
+      "meaning_luck": "ไม่มีดวงเสี่ยงโชค (เก็บเงินไว้ดีกว่า), ขี้เหนียวจนลาภหาย"
+    },
+    {
+      "name_short": "pe05",
+      "name": "Five of Pentacles",
+      "meaning_luck": "ดวงตกเรื่องเงิน, เสียพนัน, ระวังทรัพย์สินสูญหาย"
+    },
+    {
+      "name_short": "pe06",
+      "name": "Six of Pentacles",
+      "meaning_luck": "ได้เงินช่วยเหลือ, กู้ผ่าน, หรือต้องทำบุญก่อนถึงจะมีโชค"
+    },
+    {
+      "name_short": "pe07",
+      "name": "Seven of Pentacles",
+      "meaning_luck": "โชคจากการลงทุนระยะยาว (หุ้น/กองทุน), ดอกเบี้ยปันผล"
+    },
+    {
+      "name_short": "pe08",
+      "name": "Eight of Pentacles",
+      "meaning_luck": "รวยด้วยลำแข้ง (ไม่มีฟลุ๊ค), ขยันแล้วรวย"
+    },
+    {
+      "name_short": "pe09",
+      "name": "Nine of Pentacles",
+      "meaning_luck": "ถูกหวยรวยเอง, เสวยสุขบนกองเงินกองทอง, ดวงคุณนาย"
+    },
+    {
+      "name_short": "pe10",
+      "name": "Ten of Pentacles",
+      "meaning_luck": "มรดกก้อนโต, โชคลาภจากตระกูล/ที่ดิน, รวยมหาศาล"
+    },
+    {
+      "name_short": "swpa",
+      "name": "Page of Swords",
+      "meaning_luck": "ระวังข่าวลวง, โชคไม่ค่อยดี, ต้องระแวดระวัง"
+    },
+    {
+      "name_short": "swkn",
+      "name": "Knight of Swords",
+      "meaning_luck": "โชคแบบฉาบฉวย (มาไวไปไว), ระวังความโลภพาจน"
+    },
+    {
+      "name_short": "swqu",
+      "name": "Queen of Swords",
+      "meaning_luck": "ไม่มีลาภลอย, ต้องพึ่งตัวเองเท่านั้น"
+    },
+    {
+      "name_short": "swki",
+      "name": "King of Swords",
+      "meaning_luck": "โชคจากการวางแผน/ตัวเลขคำนวณ (ไม่ใช่ดวง), ชนะคดีความ"
+    },
+    {
+      "name_short": "swac",
+      "name": "Ace of Swords",
+      "meaning_luck": "ชนะพนัน (แต่มีความเสี่ยง), ตัดสินใจเด็ดขาดแล้วได้ลาภ"
+    },
+    {
+      "name_short": "sw02",
+      "name": "Two of Swords",
+      "meaning_luck": "ทางตัน, ยังไม่ควรเสี่ยงโชค, ถูกปิดกั้นโอกาส"
+    },
+    {
+      "name_short": "sw03",
+      "name": "Three of Swords",
+      "meaning_luck": "เสียเงิน, ถูกเจ้ามือโกง, หวยเฉียด"
+    },
+    {
+      "name_short": "sw04",
+      "name": "Four of Swords",
+      "meaning_luck": "ดวงนิ่งสนิท, ควรงดเสี่ยงโชคสักพัก"
+    },
+    {
+      "name_short": "sw05",
+      "name": "Five of Swords",
+      "meaning_luck": "ถูกเอาเปรียบ, ได้ไม่คุ้มเสีย, ลาภจากการเบียดเบียนผู้อื่น"
+    },
+    {
+      "name_short": "sw06",
+      "name": "Six of Swords",
+      "meaning_luck": "พ้นเคราะห์, สถานการณ์ค่อยๆ ดีขึ้น (แต่ยังไม่รวย)"
+    },
+    {
+      "name_short": "sw07",
+      "name": "Seven of Swords",
+      "meaning_luck": "ลาภลอยแบบลับๆ, ได้เงินจากการซิกแซก/เทคนิคพิเศษ"
+    },
+    {
+      "name_short": "sw08",
+      "name": "Eight of Swords",
+      "meaning_luck": "มืดแปดด้าน, เจ้าหนี้ตามทวง, หมดหนทางหาเงิน"
+    },
+    {
+      "name_short": "sw09",
+      "name": "Nine of Swords",
+      "meaning_luck": "เครียดเพราะหนี้สิน, เสียเงินจนนอนไม่หลับ"
+    },
+    {
+      "name_short": "sw10",
+      "name": "Ten of Swords",
+      "meaning_luck": "ล้มละลาย, สูญเสียเงินก้อนใหญ่, ดวงตกสุดขีด (ห้ามเสี่ยงโชค)"
+    }
+  ]
+}

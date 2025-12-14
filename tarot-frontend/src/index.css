@@ -123,3 +123,57 @@ h1, h2 {
 .lang-btn:hover:not(.active) {
   color: #ffd700;
 }
+
+/* ลายหลังไพ่ (Card Back) */
+.card-back {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #2a2a2a 0%, #000000 100%);
+  border: 2px solid #d4af37;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.card-back::after {
+  content: "★";
+  font-size: 3rem;
+  color: rgba(212, 175, 55, 0.2);
+}
+
+.card-back:hover {
+  border-color: #fff;
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #d4af37;
+}/* ลายหลังไพ่ (Card Back) */
+.card-back {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #2a2a2a 0%, #000000 100%);
+  border: 2px solid #d4af37;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.card-back::after {
+  content: "★";
+  font-size: 3rem;
+  color: rgba(212, 175, 55, 0.2);
+}
+
+.card-back:hover {
+  border-color: #fff;
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #d4af37;
+}

@@ -12,38 +12,36 @@ app.use(express.json());
 app.get('/api/tarot-reading', async (req, res) => {
     try {
         const num = req.query.n || 3;
-        
-        // ยิงไปหา Backend
-        const response = await axios.get(`${ORACLE_URL}/draw?n=${num}`);
-        
-        // ✅ จุดที่แก้: เปลี่ยน .data เป็น .reading ให้ตรงกับ Backend
-        const cards = response.data.reading; 
+        console.log(`🔄 Requesting ${num} cards from Oracle...`);
 
-        // เช็คเผื่อ Backend ส่งกลับมาผิดพลาด
-        if (!cards) {
-            throw new Error("Backend did not return any cards (reading is undefined)");
+        // ยิงไปหา Backend (เพิ่ม timeout 10 วินาที)
+        const response = await axios.get(`${ORACLE_URL}/draw?n=${num}`, {
+            timeout: 10000 
+        });
+        
+        const cards = response.data.reading;
+
+        if (!cards || !Array.isArray(cards)) {
+            console.error("❌ Invalid response from Backend:", response.data);
+            throw new Error("Backend did not return a valid 'reading' array");
         }
 
-        console.log(`✅ Served ${cards.length} cards to client.`);
+        console.log(`✅ Received ${cards.length} cards. Sending to client.`);
         
-        // ส่งต่อให้ Frontend
         res.json({
             service: "Gateway",
             timestamp: new Date(),
-            reading: cards // Frontend ก็รอรับชื่อ reading เหมือนกัน
+            reading: cards 
         });
 
     } catch (error) {
         console.error("❌ Gateway Error:", error.message);
-        // ดู Error จริงๆ จาก Backend ถ้ามี
-        if (error.response) {
-            console.error("   Backend response:", error.response.data);
+        if(error.code === 'ECONNREFUSED') {
+            return res.status(503).json({ error: "Backend (Port 3001) is down." });
         }
-        res.status(500).json({ error: "Connection Failed" });
+        res.status(500).json({ error: "Connection Failed: " + error.message });
     }
 });
-
-app.get('/', (req, res) => res.send('Gateway Running...'));
 
 app.listen(PORT, () => {
     console.log(`🛡️  Gateway Server listening on port ${PORT}`);

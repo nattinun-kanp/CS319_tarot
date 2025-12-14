@@ -1,0 +1,395 @@
+{
+  "nhits": 78,
+  "cards": [
+    {
+      "name_short": "ar01",
+      "name": "The Magician",
+      "meaning_love": "รักที่ตื่นเต้น เป็นฝ่ายรุกเริ่มจีบก่อน มีเสน่ห์แพรวพราว แต่อาจเจ้าชู้หรือมีเล่ห์เหลี่ยม"
+    },
+    {
+      "name_short": "ar02",
+      "name": "The High Priestess",
+      "meaning_love": "รักซ่อนเร้น แอบชอบคนมีเจ้าของ หรือมีความสัมพันธ์ที่ไม่สามารถเปิดเผยได้"
+    },
+    {
+      "name_short": "ar03",
+      "name": "The Empress",
+      "meaning_love": "ความรักที่อุดมสมบูรณ์ พร้อมสร้างครอบครัว การตั้งครรภ์ หรือได้แฟนที่ดูแลดีมาก"
+    },
+    {
+      "name_short": "ar04",
+      "name": "The Emperor",
+      "meaning_love": "ความรักที่ฝ่ายชายเป็นผู้นำสูง ขี้หึง หวงก้าง หรือความสัมพันธ์ที่จริงจังแต่น่าอึดอัด"
+    },
+    {
+      "name_short": "ar05",
+      "name": "The Hierophant",
+      "meaning_love": "รักแบบเข้าตามตรอกออกตามประตู การแต่งงานตามประเพณี รักที่ผู้ใหญ่เห็นชอบ"
+    },
+    {
+      "name_short": "ar06",
+      "name": "The Lovers",
+      "meaning_love": "เจอเนื้อคู่ที่ถูกใจมาก รักหวานชื่น แต่บางครั้งอาจหมายถึงต้องเลือกใครสักคน"
+    },
+    {
+      "name_short": "ar07",
+      "name": "The Chariot",
+      "meaning_love": "ความรักต้องฝ่าฟันอุปสรรค คู่กัดที่รักกัน หรือแฟนที่ต้องเดินทางบ่อย ห่างกัน"
+    },
+    {
+      "name_short": "ar08",
+      "name": "Fortitude",
+      "meaning_love": "ผู้หญิงเป็นช้างเท้าหน้า คุมแฟนอยู่หมัด ความรักที่ต้องใช้ความอดทนและความเข้าใจสูง"
+    },
+    {
+      "name_short": "ar09",
+      "name": "The Hermit",
+      "meaning_love": "โสดสนิท ปลีกวิเวกพักใจ หรือความสัมพันธ์ที่เงียบเหงา ห่างเหินกัน"
+    },
+    {
+      "name_short": "ar10",
+      "name": "Wheel Of Fortune",
+      "meaning_love": "บุพเพสันนิวาส รักรีเทิร์น จังหวะชีวิตจะพาคนที่ใช่เข้ามา หรือความสัมพันธ์เปลี่ยนแปลงกะทันหัน"
+    },
+    {
+      "name_short": "ar11",
+      "name": "Justice",
+      "meaning_love": "รักที่มีเหตุผล การจดทะเบียนสมรส หรือการตัดสินใจเรื่องความสัมพันธ์อย่างเด็ดขาด"
+    },
+    {
+      "name_short": "ar12",
+      "name": "The Hanged Man",
+      "meaning_love": "ความรักที่ต้องรอคอย ยอมเสียสละเพื่ออีกฝ่าย หรืออยู่ในสถานะที่กลืนไม่เข้าคายไม่ออก"
+    },
+    {
+      "name_short": "ar13",
+      "name": "Death",
+      "meaning_love": "การจบความสัมพันธ์เพื่อเริ่มต้นใหม่ หรือการเปลี่ยนแปลงสถานะครั้งใหญ่ (เช่น เลิกคุยเป็นแฟน)"
+    },
+    {
+      "name_short": "ar14",
+      "name": "Temperance",
+      "meaning_love": "การปรับจูนเข้าหากัน เพื่อนเลื่อนสถานะเป็นแฟน หรือการประคับประคองความรัก"
+    },
+    {
+      "name_short": "ar15",
+      "name": "The Devil",
+      "meaning_love": "ความหลงใหลรุนแรง เซ็กส์จัด หึงหวง toxic relationship หรือความสัมพันธ์เพื่อผลประโยชน์"
+    },
+    {
+      "name_short": "ar16",
+      "name": "The Tower",
+      "meaning_love": "เลิกรากะทันหัน บ้านแตก ทะเลาะกันรุนแรง หรือความลับแตกจนรับไม่ได้"
+    },
+    {
+      "name_short": "ar17",
+      "name": "The Star",
+      "meaning_love": "ความหวังใหม่ในความรัก การเยียวยาจิตใจ แฟนที่หน้าตาดีหรือเป็นคนดัง"
+    },
+    {
+      "name_short": "ar18",
+      "name": "The Moon",
+      "meaning_love": "ความรักคลุมเครือ ไม่ชัดเจน หวาดระแวง หรือมีการโกหกปิดบัง"
+    },
+    {
+      "name_short": "ar19",
+      "name": "The Sun",
+      "meaning_love": "ความรักสดใส มีความสุขมาก ได้แต่งงาน แฟนเปิดเผยจริงใจ"
+    },
+    {
+      "name_short": "ar20",
+      "name": "The Last Judgment",
+      "meaning_love": "การกลับมาคืนดี โอกาสที่สองในความรัก หรือผลกรรมแห่งการกระทำในอดีตส่งผล"
+    },
+    {
+      "name_short": "ar00",
+      "name": "The Fool",
+      "meaning_love": "รักอิสระ ไม่ผูกมัด แค่คุยๆ กันไปก่อน หรือการเริ่มต้นรักใหม่แบบไม่คิดหน้าคิดหลัง"
+    },
+    {
+      "name_short": "ar21",
+      "name": "The World",
+      "meaning_love": "ความรักสมบูรณ์แบบ ลงเอยด้วยการแต่งงาน คู่ชีวิตที่ตามหามานาน"
+    },
+    {
+      "name_short": "wapa",
+      "name": "Page of Wands",
+      "meaning_love": "เริ่มต้นศึกษาดูใจ มีคนอายุน้อยกว่ามาจีบ หรือได้รับข้อความจากคนรัก"
+    },
+    {
+      "name_short": "wakn",
+      "name": "Knight of Wands",
+      "meaning_love": "ความรักที่รวดเร็ว รุกหนัก แต่อาจเบื่อง่าย หรือแฟนชอบเดินทาง"
+    },
+    {
+      "name_short": "waqu",
+      "name": "Queen of Wands",
+      "meaning_love": "ผู้หญิงเก่ง มีเสน่ห์ แฟนขี้หึงแต่ดูแลดี ความสัมพันธ์ที่ร้อนแรง"
+    },
+    {
+      "name_short": "waki",
+      "name": "King of Wands",
+      "meaning_love": "ผู้ชายมั่นคง จริงจังกับความรัก แต่อาจจะบ้างานไปบ้าง"
+    },
+    {
+      "name_short": "waac",
+      "name": "Ace of Wands",
+      "meaning_love": "เริ่มต้นความสัมพันธ์ใหม่ เจอคนที่ถูกสเปกมาก หรือมีกิจกรรมร่วมกัน"
+    },
+    {
+      "name_short": "wa02",
+      "name": "Two of Wands",
+      "meaning_love": "กำลังมองหาคู่ หรือวางแผนอนาคตกับแฟนระยะยาว"
+    },
+    {
+      "name_short": "wa03",
+      "name": "Three of Wands",
+      "meaning_love": "รักทางไกล การรอคอยคนรัก หรือความสัมพันธ์ที่ค่อยๆ พัฒนา"
+    },
+    {
+      "name_short": "wa04",
+      "name": "Four of Wands",
+      "meaning_love": "ความรักมั่นคง การย้ายมาอยู่ด้วยกัน หรือการแต่งงาน"
+    },
+    {
+      "name_short": "wa05",
+      "name": "Five of Wands",
+      "meaning_love": "คู่กัด ทะเลาะกันบ่อย หรือมีคู่แข่งหัวใจหลายคนแย่งกัน"
+    },
+    {
+      "name_short": "wa06",
+      "name": "Six of Wands",
+      "meaning_love": "พิชิตใจสำเร็จ จีบติด หรือประกาศข่าวดีเรื่องความรัก"
+    },
+    {
+      "name_short": "wa07",
+      "name": "Seven of Wands",
+      "meaning_love": "ต้องพยายามเพื่อความรัก มีคู่แข่ง หรือต้องปกป้องคนรักจากปัญหา"
+    },
+    {
+      "name_short": "wa08",
+      "name": "Eight of Wands",
+      "meaning_love": "รักด่วนจี๋ พัฒนาเร็วมาก ตกหลุมรักทันที หรือมีข่าวดีเข้ามา"
+    },
+    {
+      "name_short": "wa09",
+      "name": "Nine of Wands",
+      "meaning_love": "ระแวงคนรัก เข็ดจากรักครั้งเก่า หรือความสัมพันธ์ที่มีอุปสรรคให้หนักใจ"
+    },
+    {
+      "name_short": "wa10",
+      "name": "Ten of Wands",
+      "meaning_love": "แบกภาระในความรักไว้คนเดียว แฟนไม่มีเวลาให้ หรือความสัมพันธ์ที่เหนื่อยมาก"
+    },
+    {
+      "name_short": "cupa",
+      "name": "Page of Cups",
+      "meaning_love": "ความรักกุ๊กกิ๊ก ขี้งอน แอบชอบรุ่นน้อง หรือมีคนมาหยอดคำหวาน"
+    },
+    {
+      "name_short": "cukn",
+      "name": "Knight of Cups",
+      "meaning_love": "คนรักที่โรแมนติกมาก เอาใจเก่ง โปรโมชั่นแรง หรือมีคนเข้ามาจีบ"
+    },
+    {
+      "name_short": "cuqu",
+      "name": "Queen of Cups",
+      "meaning_love": "ผู้หญิงแสนดี ขี้สงสาร แฟนที่เข้าใจความรู้สึก แต่ระวังเรื่องอารมณ์อ่อนไหว"
+    },
+    {
+      "name_short": "cuki",
+      "name": "King of Cups",
+      "meaning_love": "ผู้ชายอบอุ่น ใจดี เป็นที่ปรึกษา แต่เดาใจยากในบางครั้ง"
+    },
+    {
+      "name_short": "cuac",
+      "name": "Ace of Cups",
+      "meaning_love": "ความรักครั้งใหม่ที่เปี่ยมล้น ความรู้สึกดีๆ ที่เพิ่งเกิดขึ้น"
+    },
+    {
+      "name_short": "cu02",
+      "name": "Two of Cups",
+      "meaning_love": "เนื้อคู่ รักแรกพบ เข้ากันได้ดีมาก เหมือนรู้จักกันมานาน"
+    },
+    {
+      "name_short": "cu03",
+      "name": "Three of Cups",
+      "meaning_love": "งานแต่งงาน เปิดตัวแฟน หรือระวังรักสามเส้า (ขึ้นอยู่กับไพ่รอบข้าง)"
+    },
+    {
+      "name_short": "cu04",
+      "name": "Four of Cups",
+      "meaning_love": "เลือกมาก ใครมาจีบก็ไม่สน หรือแฟนง้อแล้วยังเล่นตัว"
+    },
+    {
+      "name_short": "cu05",
+      "name": "Five of Cups",
+      "meaning_love": "ผิดหวังในรัก ยังลืมแฟนเก่าไม่ได้ หรือเสียใจกับสิ่งที่ทำพลาดไป"
+    },
+    {
+      "name_short": "cu06",
+      "name": "Six of Cups",
+      "meaning_love": "แฟนเก่ากลับมาคืนดี รักต่างวัย หรือความรักที่ผูกพันกันมานาน"
+    },
+    {
+      "name_short": "cu07",
+      "name": "Seven of Cups",
+      "meaning_love": "แอบมโนไปเอง เลือกไม่ถูกเพราะมีคนคุยเยอะ หรือความรักที่เป็นเพียงภาพฝัน"
+    },
+    {
+      "name_short": "cu08",
+      "name": "Eight of Cups",
+      "meaning_love": "ตัดใจเดินออกมาจากความสัมพันธ์ ทั้งที่ยังรักอยู่"
+    },
+    {
+      "name_short": "cu09",
+      "name": "Nine of Cups",
+      "meaning_love": "พอใจในสถานะ (โสดก็สุข) หรือความรักที่มีความลับซ่อนอยู่ (รักเผื่อเลือก)"
+    },
+    {
+      "name_short": "cu10",
+      "name": "Ten of Cups",
+      "meaning_love": "ความสุขสมบูรณ์ แต่งงานสร้างครอบครัวอบอุ่น รักนิรันดร์"
+    },
+    {
+      "name_short": "pepa",
+      "name": "Page of Pentacles",
+      "meaning_love": "เริ่มคุยๆ กัน ศึกษาดูใจอย่างช้าๆ หรือมีคนอายุน้อยกว่ามาติดพัน"
+    },
+    {
+      "name_short": "pekn",
+      "name": "Knight of Pentacles",
+      "meaning_love": "ความรักที่ดำเนินไปอย่างช้าๆ แต่มั่นคง ไม่หวือหวาแต่น่าเบื่อบ้าง"
+    },
+    {
+      "name_short": "pequ",
+      "name": "Queen of Pentacles",
+      "meaning_love": "ความรักที่มั่นคง ดูแลกันดี แฟนสายเปย์ หรือผู้หญิงที่พร้อมสร้างครอบครัว"
+    },
+    {
+      "name_short": "peki",
+      "name": "King of Pentacles",
+      "meaning_love": "ผู้ชายฐานะดี มั่นคง เลี้ยงแฟนดี แต่อาจไม่โรแมนติก"
+    },
+    {
+      "name_short": "peac",
+      "name": "Ace of Pentacles",
+      "meaning_love": "เริ่มต้นความสัมพันธ์ที่มั่นคงจริงจัง หรือความรักนำมาซึ่งโชคลาภ"
+    },
+    {
+      "name_short": "pe02",
+      "name": "Two of Pentacles",
+      "meaning_love": "จัดสรรเวลาไม่ทัน สับราง หรือความสัมพันธ์ที่ยังไม่แน่นอน"
+    },
+    {
+      "name_short": "pe03",
+      "name": "Three of Pentacles",
+      "meaning_love": "แอบกิ๊กกันในที่ทำงาน หรือวางแผนสร้างอนาคตร่วมกัน"
+    },
+    {
+      "name_short": "pe04",
+      "name": "Four of Pentacles",
+      "meaning_love": "ขี้หึง หวงก้าง แสดงความเป็นเจ้าของมากเกินไป หรือไม่ยอมเปิดใจ"
+    },
+    {
+      "name_short": "pe05",
+      "name": "Five of Pentacles",
+      "meaning_love": "รู้สึกถูกทอดทิ้ง รักที่ไม่ได้รับการยอมรับ หรือกัดก้อนเกลือกินด้วยกัน"
+    },
+    {
+      "name_short": "pe06",
+      "name": "Six of Pentacles",
+      "meaning_love": "ฝ่ายหนึ่งเป็นผู้ให้ อีกฝ่ายเป็นผู้รับ (สายเปย์) หรือความสัมพันธ์ที่ไม่เท่าเทียม"
+    },
+    {
+      "name_short": "pe07",
+      "name": "Seven of Pentacles",
+      "meaning_love": "ดูใจกันมานานจนเริ่มเบื่อ หรือกำลังทบทวนว่าควรไปต่อไหม"
+    },
+    {
+      "name_short": "pe08",
+      "name": "Eight of Pentacles",
+      "meaning_love": "ตั้งใจสร้างเนื้อสร้างตัวจนไม่มีเวลาให้แฟน หรือพยายามปรับปรุงความรักให้ดีขึ้น"
+    },
+    {
+      "name_short": "pe09",
+      "name": "Nine of Pentacles",
+      "meaning_love": "โสด สวย รวย มาก (ไม่ง้อผู้ชาย) หรือความรักที่คบกันแบบให้อิสระ"
+    },
+    {
+      "name_short": "pe10",
+      "name": "Ten of Pentacles",
+      "meaning_love": "แต่งงานเข้าบ้านรวย ครอบครัวยอมรับ มรดกตกทอด และความมั่นคงระยะยาว"
+    },
+    {
+      "name_short": "swpa",
+      "name": "Page of Swords",
+      "meaning_love": "ส่องเฟสแฟนเก่า ตามสืบ จ้องจับผิด หรือความสัมพันธ์ที่เริ่มมีปากเสียง"
+    },
+    {
+      "name_short": "swkn",
+      "name": "Knight of Swords",
+      "meaning_love": "ความรักรุนแรง ทะเลาะกันบ่อย หรือแฟนอารมณ์ร้อน เอาแต่ใจ"
+    },
+    {
+      "name_short": "swqu",
+      "name": "Queen of Swords",
+      "meaning_love": "โสดสตรอง เลือกเยอะ หรือความสัมพันธ์ที่เย็นชา จืดชืด"
+    },
+    {
+      "name_short": "swki",
+      "name": "King of Swords",
+      "meaning_love": "ผู้ชายเผด็จการ เย็นชา ใช้เหตุผลมากกว่าหัวใจ ตัดสินใจเด็ดขาด"
+    },
+    {
+      "name_short": "swac",
+      "name": "Ace of Swords",
+      "meaning_love": "ตัดสินใจเด็ดขาด (จะคบหรือจะเลิก) หรือการชนะใจคนรัก"
+    },
+    {
+      "name_short": "sw02",
+      "name": "Two of Swords",
+      "meaning_love": "เลือกไม่ได้ ปิดกั้นตัวเอง หรือสถานการณ์กลืนไม่เข้าคายไม่ออก"
+    },
+    {
+      "name_short": "sw03",
+      "name": "Three of Swords",
+      "meaning_love": "อกหัก รักสามเส้า มือที่สาม หรือทะเลาะกันรุนแรง"
+    },
+    {
+      "name_short": "sw04",
+      "name": "Four of Swords",
+      "meaning_love": "พักใจชั่วคราว แยกกันอยู่ หรือความรักที่นิ่งสนิท"
+    },
+    {
+      "name_short": "sw05",
+      "name": "Five of Swords",
+      "meaning_love": "ชอบเอาชนะ ทะเลาะกันจนแตกหัก หรือถูกหักหลัง"
+    },
+    {
+      "name_short": "sw06",
+      "name": "Six of Swords",
+      "meaning_love": "หนีปัญหา ค่อยๆ ดีขึ้นแต่ยังเศร้าอยู่ หรือพาแฟนไปเที่ยวเปลี่ยนบรรยากาศ"
+    },
+    {
+      "name_short": "sw07",
+      "name": "Seven of Swords",
+      "meaning_love": "แอบคุย แอบแซ่บ โกหก ปิดบัง หรือรักลับๆ ล่อๆ"
+    },
+    {
+      "name_short": "sw08",
+      "name": "Eight of Swords",
+      "meaning_love": "มูฟออนไม่ได้ รู้สึกเหมือนถูกขังในความสัมพันธ์ หรือถูกผูกมัดจนอึดอัด"
+    },
+    {
+      "name_short": "sw09",
+      "name": "Nine of Swords",
+      "meaning_love": "เครียด วิตกกังวล นอนไม่หลับเพราะเรื่องความรัก หรือกลัวการเลิกรา"
+    },
+    {
+      "name_short": "sw10",
+      "name": "Ten of Swords",
+      "meaning_love": "เจ็บปวดที่สุด จบสิ้น ถูกแทงข้างหลัง หรือการเลิกราที่เจ็บปวด"
+    }
+  ]
+}

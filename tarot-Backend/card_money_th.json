@@ -1,0 +1,395 @@
+{
+  "nhits": 78,
+  "cards": [
+    {
+      "name_short": "ar01",
+      "name": "The Magician",
+      "meaning_finance": "หาเงินเก่ง, ช่องทางทำเงินใหม่, ใช้ความสามารถแลกเงิน"
+    },
+    {
+      "name_short": "ar02",
+      "name": "The High Priestess",
+      "meaning_finance": "เงินเก็บซ่อนเร้น, เงินลับๆ, ใช้สัญชาตญาณลงทุน"
+    },
+    {
+      "name_short": "ar03",
+      "name": "The Empress",
+      "meaning_finance": "มั่งคั่ง, อุดมสมบูรณ์, ใช้จ่ายเพื่อความสุขและความงาม"
+    },
+    {
+      "name_short": "ar04",
+      "name": "The Emperor",
+      "meaning_finance": "มั่นคง, ควบคุมการเงินดี, เป็นเจ้าของกิจการ"
+    },
+    {
+      "name_short": "ar05",
+      "name": "The Hierophant",
+      "meaning_finance": "การเงินแบบอนุรักษ์นิยม, เงินฝากประจำ, ลงทุนความเสี่ยงต่ำ"
+    },
+    {
+      "name_short": "ar06",
+      "name": "The Lovers",
+      "meaning_finance": "หุ้นส่วนธุรกิจ, การตัดสินใจเรื่องเงิน, ใช้เงินเปย์คนรัก"
+    },
+    {
+      "name_short": "ar07",
+      "name": "The Chariot",
+      "meaning_finance": "มุ่งมั่นหาเงิน, ปลดหนี้, ลุยงานเพื่อเงิน"
+    },
+    {
+      "name_short": "ar08",
+      "name": "Fortitude",
+      "meaning_finance": "อดทนเก็บออม, ควบคุมกิเลส, การเงินค่อยๆ ดีขึ้น"
+    },
+    {
+      "name_short": "ar09",
+      "name": "The Hermit",
+      "meaning_finance": "ประหยัด, ตรวจสอบบัญชี, เงินเก็บยามเกษียณ"
+    },
+    {
+      "name_short": "ar10",
+      "name": "Wheel Of Fortune",
+      "meaning_finance": "โชคลาภ, เงินหมุนเวียน, ขึ้นๆ ลงๆ ตามเศรษฐกิจ"
+    },
+    {
+      "name_short": "ar11",
+      "name": "Justice",
+      "meaning_finance": "สัญญาทางการเงิน, คดีความเรื่องเงิน, ความยุติธรรม"
+    },
+    {
+      "name_short": "ar12",
+      "name": "The Hanged Man",
+      "meaning_finance": "การเงินชะงัก, หนี้สินค้างชำระ, ต้องเสียสละก่อนได้คืน"
+    },
+    {
+      "name_short": "ar13",
+      "name": "Death",
+      "meaning_finance": "ล้มละลาย, ปิดกิจการ, การเปลี่ยนแปลงฐานะครั้งใหญ่"
+    },
+    {
+      "name_short": "ar14",
+      "name": "Temperance",
+      "meaning_finance": "หมุนเงิน, ปรับสมดุลรายรับรายจ่าย, พอเพียง"
+    },
+    {
+      "name_short": "ar15",
+      "name": "The Devil",
+      "meaning_finance": "หนี้สินรุงรัง, เงินสีเทา, กิเลสครอบงำ, การพนัน"
+    },
+    {
+      "name_short": "ar16",
+      "name": "The Tower",
+      "meaning_finance": "ล้มละลายกะทันหัน, ขาดทุนย่อยยับ, วิกฤตการเงิน"
+    },
+    {
+      "name_short": "ar17",
+      "name": "The Star",
+      "meaning_finance": "ความหวังทางการเงิน, โอกาสฟื้นตัว, โชคลาภเล็กๆ"
+    },
+    {
+      "name_short": "ar18",
+      "name": "The Moon",
+      "meaning_finance": "ถูกหลอกลวง, การเงินไม่ชัดเจน, ลงทุนผิดพลาด"
+    },
+    {
+      "name_short": "ar19",
+      "name": "The Sun",
+      "meaning_finance": "ร่ำรวย, ประสบความสำเร็จ, เงินทองไหลมาเทมา"
+    },
+    {
+      "name_short": "ar20",
+      "name": "The Last Judgment",
+      "meaning_finance": "ปลดหนี้, ผลตอบแทนจากการกระทำในอดีต, การตัดสินใจ"
+    },
+    {
+      "name_short": "ar00",
+      "name": "The Fool",
+      "meaning_finance": "เริ่มต้นลงทุนใหม่, ความเสี่ยงสูง, ใช้เงินไม่คิดหน้าคิดหลัง"
+    },
+    {
+      "name_short": "ar21",
+      "name": "The World",
+      "meaning_finance": "ความสำเร็จสูงสุดทางการเงิน, ธุรกิจข้ามชาติ, อิสระทางการเงิน"
+    },
+    {
+      "name_short": "wapa",
+      "name": "Page of Wands",
+      "meaning_finance": "ข่าวดีเรื่องงาน/เงิน, เริ่มต้นโปรเจกต์ใหม่"
+    },
+    {
+      "name_short": "wakn",
+      "name": "Knight of Wands",
+      "meaning_finance": "หาเงินเร็ว, ใช้เงินไว, การลงทุนระยะสั้น"
+    },
+    {
+      "name_short": "waqu",
+      "name": "Queen of Wands",
+      "meaning_finance": "บริหารเก่ง, มั่นใจในธุรกิจ, ผู้หญิงทำงานเก่ง"
+    },
+    {
+      "name_short": "waki",
+      "name": "King of Wands",
+      "meaning_finance": "นักธุรกิจ, ผู้นำองค์กร, ความมั่นคงทางอาชีพ"
+    },
+    {
+      "name_short": "waac",
+      "name": "Ace of Wands",
+      "meaning_finance": "โอกาสทางธุรกิจใหม่, รายได้ใหม่, เริ่มต้นกิจการ"
+    },
+    {
+      "name_short": "wa02",
+      "name": "Two of Wands",
+      "meaning_finance": "วางแผนการเงินระยะยาว, การลงทุนต่างประเทศ"
+    },
+    {
+      "name_short": "wa03",
+      "name": "Three of Wands",
+      "meaning_finance": "ขยายกิจการ, รอผลกำไร, การค้าขาย"
+    },
+    {
+      "name_short": "wa04",
+      "name": "Four of Wands",
+      "meaning_finance": "ความมั่นคง, ซื้ออสังหาฯ, ฉลองความสำเร็จ"
+    },
+    {
+      "name_short": "wa05",
+      "name": "Five of Wands",
+      "meaning_finance": "แข่งขันสูง, ขัดแย้งเรื่องผลประโยชน์"
+    },
+    {
+      "name_short": "wa06",
+      "name": "Six of Wands",
+      "meaning_finance": "ได้รับรางวัล, เลื่อนขั้น, ความสำเร็จทางการเงิน"
+    },
+    {
+      "name_short": "wa07",
+      "name": "Seven of Wands",
+      "meaning_finance": "ต่อสู้เพื่อรักษาทรัพย์สิน, คู่แข่งเยอะ"
+    },
+    {
+      "name_short": "wa08",
+      "name": "Eight of Wands",
+      "meaning_finance": "เงินเข้าเร็ว, ธุรกรรมรวดเร็ว"
+    },
+    {
+      "name_short": "wa09",
+      "name": "Nine of Wands",
+      "meaning_finance": "ระวังการใช้จ่าย, ป้องกันทรัพย์สิน"
+    },
+    {
+      "name_short": "wa10",
+      "name": "Ten of Wands",
+      "meaning_finance": "ภาระหนี้สินหนัก, งานหนักเงินน้อย"
+    },
+    {
+      "name_short": "cupa",
+      "name": "Page of Cups",
+      "meaning_finance": "ข่าวดีเล็กๆ, งานที่รัก, เริ่มต้นเก็บออม"
+    },
+    {
+      "name_short": "cukn",
+      "name": "Knight of Cups",
+      "meaning_finance": "ข้อเสนอทางการเงิน, เงินที่มาจากความเสน่หา"
+    },
+    {
+      "name_short": "cuqu",
+      "name": "Queen of Cups",
+      "meaning_finance": "ใช้เงินตามอารมณ์, มีคนอุปถัมภ์"
+    },
+    {
+      "name_short": "cuki",
+      "name": "King of Cups",
+      "meaning_finance": "ควบคุมการเงินได้ดี, ฐานะมั่นคง"
+    },
+    {
+      "name_short": "cuac",
+      "name": "Ace of Cups",
+      "meaning_finance": "โอกาสทางการเงินใหม่ๆ, ความอุดมสมบูรณ์"
+    },
+    {
+      "name_short": "cu02",
+      "name": "Two of Cups",
+      "meaning_finance": "หุ้นส่วนที่ดี, เซ็นสัญญา, ผลประโยชน์ร่วมกัน"
+    },
+    {
+      "name_short": "cu03",
+      "name": "Three of Cups",
+      "meaning_finance": "งานเลี้ยงฉลอง, ใช้เงินสังสรรค์"
+    },
+    {
+      "name_short": "cu04",
+      "name": "Four of Cups",
+      "meaning_finance": "เบื่อหน่ายทรัพย์สิน, ปฏิเสธโอกาส"
+    },
+    {
+      "name_short": "cu05",
+      "name": "Five of Cups",
+      "meaning_finance": "สูญเสียเงิน, ผิดหวังเรื่องการลงทุน"
+    },
+    {
+      "name_short": "cu06",
+      "name": "Six of Cups",
+      "meaning_finance": "มรดก, ของขวัญ, หนี้สูญได้คืน"
+    },
+    {
+      "name_short": "cu07",
+      "name": "Seven of Cups",
+      "meaning_finance": "ฝันเฟื่องเรื่องรวย, ตัวเลือกเยอะแต่จับต้องไม่ได้"
+    },
+    {
+      "name_short": "cu08",
+      "name": "Eight of Cups",
+      "meaning_finance": "ทิ้งเงิน/ลาออก เพื่อความสบายใจ"
+    },
+    {
+      "name_short": "cu09",
+      "name": "Nine of Cups",
+      "meaning_finance": "พอใจในสินทรัพย์, รวยเงียบ"
+    },
+    {
+      "name_short": "cu10",
+      "name": "Ten of Cups",
+      "meaning_finance": "ครอบครัวมั่งคั่ง, ความสุขสมบูรณ์"
+    },
+    {
+      "name_short": "pepa",
+      "name": "Page of Pentacles",
+      "meaning_finance": "เริ่มเก็บเงิน, เรียนรู้เรื่องลงทุน, ข่าวเรื่องเงิน"
+    },
+    {
+      "name_short": "pekn",
+      "name": "Knight of Pentacles",
+      "meaning_finance": "การเงินมั่นคงแต่โตช้า, ขยันอดทน"
+    },
+    {
+      "name_short": "pequ",
+      "name": "Queen of Pentacles",
+      "meaning_finance": "บริหารเงินเก่ง, ร่ำรวย, ชีวิตหรูหรา"
+    },
+    {
+      "name_short": "peki",
+      "name": "King of Pentacles",
+      "meaning_finance": "มหาเศรษฐี, นักธุรกิจประสบความสำเร็จ, มั่งคั่ง"
+    },
+    {
+      "name_short": "peac",
+      "name": "Ace of Pentacles",
+      "meaning_finance": "โชคลาภก้อนใหญ่, เงินก้อนแรก, โอกาสทอง"
+    },
+    {
+      "name_short": "pe02",
+      "name": "Two of Pentacles",
+      "meaning_finance": "หมุนเงินตัวเป็นเกลียว, บริหารกระแสเงินสด"
+    },
+    {
+      "name_short": "pe03",
+      "name": "Three of Pentacles",
+      "meaning_finance": "รายได้จากฝีมือ, งานช่าง, ทีมงานทำเงิน"
+    },
+    {
+      "name_short": "pe04",
+      "name": "Four of Pentacles",
+      "meaning_finance": "ขี้งก, หวงทรัพย์สิน, เงินนิ่ง"
+    },
+    {
+      "name_short": "pe05",
+      "name": "Five of Pentacles",
+      "meaning_finance": "ถังแตก, ขัดสน, สูญเสียทรัพย์"
+    },
+    {
+      "name_short": "pe06",
+      "name": "Six of Pentacles",
+      "meaning_finance": "ผู้ให้/ผู้รับ, การกุศล, แบ่งปันผลกำไร"
+    },
+    {
+      "name_short": "pe07",
+      "name": "Seven of Pentacles",
+      "meaning_finance": "รอผลตอบแทนการลงทุน, ดอกเบี้ย"
+    },
+    {
+      "name_short": "pe08",
+      "name": "Eight of Pentacles",
+      "meaning_finance": "รายได้จากงานประจำ, ขยันทำมาหากิน"
+    },
+    {
+      "name_short": "pe09",
+      "name": "Nine of Pentacles",
+      "meaning_finance": "อิสระทางการเงิน, รวยด้วยตัวเอง"
+    },
+    {
+      "name_short": "pe10",
+      "name": "Ten of Pentacles",
+      "meaning_finance": "มรดกตกทอด, ความมั่งคั่งของตระกูล"
+    },
+    {
+      "name_short": "swpa",
+      "name": "Page of Swords",
+      "meaning_finance": "ตรวจสอบบัญชี, สืบเรื่องเงิน, ระวังข่าวร้าย"
+    },
+    {
+      "name_short": "swkn",
+      "name": "Knight of Swords",
+      "meaning_finance": "ลุยหาเงินแบบบ้าคลั่ง, การเงินผันผวน"
+    },
+    {
+      "name_short": "swqu",
+      "name": "Queen of Swords",
+      "meaning_finance": "เข้มงวดเรื่องเงิน, ตัดรายจ่าย, ตัดสินใจเด็ดขาด"
+    },
+    {
+      "name_short": "swki",
+      "name": "King of Swords",
+      "meaning_finance": "ที่ปรึกษาการเงิน, กฎหมายภาษี, บริหารด้วยเหตุผล"
+    },
+    {
+      "name_short": "swac",
+      "name": "Ace of Swords",
+      "meaning_finance": "ชัยชนะทางการเงิน, ตัดสินใจลงทุนใหม่"
+    },
+    {
+      "name_short": "sw02",
+      "name": "Two of Swords",
+      "meaning_finance": "ปิดตาไม่รับรู้หนี้สิน, เลือกไม่ได้"
+    },
+    {
+      "name_short": "sw03",
+      "name": "Three of Swords",
+      "meaning_finance": "เสียเงิน, ถูกโกง, ผิดหวังเรื่องเงิน"
+    },
+    {
+      "name_short": "sw04",
+      "name": "Four of Swords",
+      "meaning_finance": "หยุดพักการลงทุน, เงินแช่นิ่ง"
+    },
+    {
+      "name_short": "sw05",
+      "name": "Five of Swords",
+      "meaning_finance": "ถูกเอาเปรียบ, ขาดทุน, ชนะแต่ไม่คุ้ม"
+    },
+    {
+      "name_short": "sw06",
+      "name": "Six of Swords",
+      "meaning_finance": "หนีหนี้, สถานการณ์การเงินค่อยๆ ดีขึ้น"
+    },
+    {
+      "name_short": "sw07",
+      "name": "Seven of Swords",
+      "meaning_finance": "ขโมย, ยักยอก, ทุจริต"
+    },
+    {
+      "name_short": "sw08",
+      "name": "Eight of Swords",
+      "meaning_finance": "ติดหนี้, มืดแปดด้านเรื่องเงิน"
+    },
+    {
+      "name_short": "sw09",
+      "name": "Nine of Swords",
+      "meaning_finance": "เครียดเรื่องเงิน, นอนไม่หลับ"
+    },
+    {
+      "name_short": "sw10",
+      "name": "Ten of Swords",
+      "meaning_finance": "ล้มละลาย, จบเห่, สูญเสียทุกอย่าง"
+    }
+  ]
+}
