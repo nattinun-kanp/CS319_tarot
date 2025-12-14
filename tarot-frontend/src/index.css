@@ -54,3 +54,72 @@ h1, h2 {
   margin-top: 40px;
   min-height: 400px;
 }
+
+/* --- ปุ่มหลัก (Main Button) --- */
+.mystic-btn {
+  position: relative;
+  background: rgba(20, 20, 30, 0.8); /* พื้นหลังเข้มโปร่งแสง */
+  color: #ffd700; /* สีทอง */
+  font-family: 'Cinzel', serif; /* ฟอนต์ดูขลัง */
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding: 18px 60px;
+  border: 2px solid #ffd700;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  text-transform: uppercase;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.1); /* แสงเงาเบาๆ */
+  backdrop-filter: blur(5px);
+}
+
+/* เอฟเฟกต์แสงฟุ้งเมื่อเอาเมาส์ชี้ (Hover Glow) */
+.mystic-btn:hover {
+  background: #ffd700;
+  color: #1a1a2e; /* ตัวหนังสือเปลี่ยนเป็นสีมืดให้อ่านง่าย */
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.6), 
+              0 0 60px rgba(255, 215, 0, 0.3); /* แสงฟุ้ง 2 ชั้น */
+  transform: translateY(-3px) scale(1.02); /* ลอยขึ้นนิดนึง */
+  border-color: #ffd700;
+}
+
+/* เอฟเฟกต์ตอนกด (Active) */
+.mystic-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+
+/* --- ปุ่มเลือกภาษา (Language Toggle) --- */
+.lang-switch-container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 5px;
+  border-radius: 30px;
+  display: inline-flex;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.lang-btn {
+  background: transparent;
+  color: #aaa;
+  border: none;
+  padding: 8px 20px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+/* สถานะปุ่มที่ถูกเลือก (Active Language) */
+.lang-btn.active {
+  background: #ffd700;
+  color: #1a1a2e;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+
+.lang-btn:hover:not(.active) {
+  color: #ffd700;
+}
