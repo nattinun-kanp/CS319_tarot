@@ -3,18 +3,19 @@ import { readFileSync, existsSync } from 'node:fs';
 
 const MONGO_URI = 'mongodb+srv://tarotDB:nattinun551776@tarot.jpvsyia.mongodb.net/?appName=tarot';
 
-// --- เพิ่มฟิลด์ _th  ---
+// ✅ 1. เพิ่ม Schema ให้ครบทุกฟิลด์ (รวม meaning_rev_th)
 const cardSchema = new mongoose.Schema({
   name_short: String,
   name: String,
-  name_th: String,       
+  name_th: String,
   value: String,
   value_int: Number,
   meaning_up: String,
-  meaning_up_th: String, 
+  meaning_up_th: String,
   meaning_rev: String,
+  meaning_rev_th: String, // เพิ่ม
   desc: String,
-  desc_th: String,      
+  desc_th: String,
   type: String
 });
 
@@ -25,12 +26,11 @@ const seed = async () => {
     await mongoose.connect(MONGO_URI);
     console.log('🔌 Connected to MongoDB...');
 
-    // อ่านไฟล์ทั้ง 2 ภาษา
-    const enFile = readFileSync('./card_data.json', 'utf-8');
-    const enData = JSON.parse(enFile);
+    // อ่านไฟล์
+    const enData = JSON.parse(readFileSync('./card_data.json', 'utf-8'));
     const enCards = enData.cards || enData;
 
-    let thCards = [];
+    let thCards: any[] = [];
     if (existsSync('./card_data_th.json')) {
         const thFile = readFileSync('./card_data_th.json', 'utf-8');
         const thData = JSON.parse(thFile);
@@ -38,18 +38,28 @@ const seed = async () => {
         console.log(`🇹🇭 พบไฟล์ภาษาไทย: ${thCards.length} ใบ`);
     }
 
-    // รวมร่างข้อมูล
+    // ✅ 2. ปรับการรวมข้อมูล (Merge) ให้รองรับชื่อ key แบบเดิม
     const mergedCards = enCards.map((card: any) => {
-        const thaiCard = thCards.find((t: any) => t.name_short === card.name_short);
+        // หาไพ่ภาษาไทยที่ชื่อย่อ (name_short) ตรงกัน
+        const thai = thCards.find((t: any) => t.name_short === card.name_short);
+        
         return {
-            ...card,
-            name_th: thaiCard?.name_th || card.name,
-            meaning_up_th: thaiCard?.meaning_up_th || "รอการแปล...",
-            desc_th: thaiCard?.desc_th || ""
+            ...card, // ข้อมูลภาษาอังกฤษเป็นหลัก
+            
+            // ถ้าในไฟล์ไทยมี key "name_th" ให้ใช้ ถ้าไม่มีให้ลองหา "name" (แบบเดิม)
+            name_th: thai?.name_th || thai?.name || card.name,
+            
+            // ความหมายแนวตั้ง
+            meaning_up_th: thai?.meaning_up_th || thai?.meaning_up || "รอการแปล...",
+            
+            // ความหมายกลับหัว
+            meaning_rev_th: thai?.meaning_rev_th || thai?.meaning_rev || "",
+            
+            // คำบรรยาย
+            desc_th: thai?.desc_th || thai?.desc || ""
         };
     });
 
-    // ลบของเก่าแล้วใส่ใหม่
     await CardModel.deleteMany({});
     console.log('🧹 Cleared old data.');
 
